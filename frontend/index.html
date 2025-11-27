@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Heart Disease Prediction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">❤️ Heart Disease Prediction</div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-page="home">🏠 Home</a>
+                <a href="#" class="nav-link" data-page="prediction">📊 Prediction</a>
+                <a href="#" class="nav-link" data-page="statistics">📈 Statistics</a>
+                <a href="#" class="nav-link" data-page="about">ℹ️ About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="main-header">❤️ Heart Disease Prediction System</h1>
+            <p class="sub-header">Privacy-Preserving AI-Powered Diagnosis | Federated Learning with Differential Privacy</p>
+        </header>
+
+        <!-- Pages -->
+        <main class="main-content">
+            <!-- HOME PAGE -->
+            <div id="home" class="page active">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <h3>99%+</h3>
+                        <p>Model Accuracy</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>ε=1.0</h3>
+                        <p>Privacy Budget</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>10K+</h3>
+                        <p>Training Samples</p>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <h2>🎯 How It Works</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>🔬 Advanced AI Technology</h4>
+                        <p>Our system uses state-of-the-art neural networks trained with federated learning across multiple medical institutions, ensuring high accuracy while preserving patient privacy.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>🔐 Privacy First</h4>
+                        <p>Implements differential privacy with ε=1.0, ensuring your medical data remains confidential while benefiting from collective intelligence.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>⚡ Instant Results</h4>
+                        <p>Get immediate risk assessment based on clinical parameters. Our model processes your input and provides predictions in real-time.</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>📊 Evidence-Based</h4>
+                        <p>Trained on comprehensive datasets with 43 clinical features, validated across multiple medical institutions for reliability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PREDICTION PAGE -->
+            <div id="prediction" class="page" style="display: none;">
+                <h2>📝 Enter Patient Information</h2>
+                <p class="subtitle">Please fill in all the required fields below:</p>
+
+                <form id="predictionForm" class="prediction-form">
+                    <div class="form-grid">
+                        <!-- Demographics -->
+                        <div class="form-section">
+                            <h3>👤 Demographics</h3>
+                            <div class="form-group">
+                                <label for="age">Age (years)</label>
